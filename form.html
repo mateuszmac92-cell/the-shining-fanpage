@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>THE SHINING - Form Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="axe.png">
+</head>
+
+<body class="application-page">
+    <nav class="toc">
+        <div class="hamburger">
+            <button class="hamburger-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="menu-links">
+            <a href="index.html">Home</a>
+            <a href="history.html">Story Introduction</a>
+            <a href="actors.html">Actors</a>
+            <a href="the_manuscript.html">The Manuscript</a>
+            <a href="form.html">Caretaker Application</a>
+        </div>
+    </nav>
+    <header>
+        <h1>
+            <a href="index.html">THE SHINING</a>
+        </h1>
+        <h2>Position Description</h2>
+    </header>
+    <main>
+        <section class="application-card">
+            <h3>Seasonal Caretaker - Overlook Hotel</h3>
+            <p class="application-note">
+                The Overlook Hotel is seeking a reliable and self-motivated individual to serve as Seasonal
+                Caretaker
+                during the winter months. The position begins shortly before the first snowfall and continues until
+                the
+                hotel reopens in spring.
+
+                The Caretaker will be responsible for overseeing the property while it remains closed to guests.
+                Duties
+                include monitoring the building, performing routine inspections, maintaining essential equipment,
+                and
+                ensuring the hotel remains secure throughout the season.
+
+                This unique opportunity offers a quiet working environment, breathtaking mountain scenery, and the
+                rare
+                chance to experience one of Colorado's most remarkable hotels in complete solitude. Applicants
+                should be
+                comfortable spending extended periods in an isolated location and capable of working independently.
+
+                The ideal candidate may also find the peaceful atmosphere particularly suitable for personal
+                projects
+                such as writing, research, or other creative pursuits.
+            </p>
+        </section>
+        <section class="application-card">
+            <h3>Requirements</h3>
+            <ul class="application-note list">
+                <li>Minimum age of 21 years.</li>
+                <li>Ability to remain on-site throughout the winter season (about 4-6 months).</li>
+                <li>Strong sense of responsibility and self-discipline.</li>
+                <li>Basic maintenance and troubleshooting skills.</li>
+                <li>Comfortable working in remote and isolated environments.</li>
+                <li>Good physical condition and ability to perform routine inspections.</li>
+                <li>No history of severe claustrophobia or discomfort with prolonged solitude.</li>
+                <li>Excellent communication skills.</li>
+                <li>Previous experience in hospitality, maintenance, security, or property management is considered an
+                    advantage.</li>
+                <li>Willingness to follow all hotel regulations and procedures.</li>
+            </ul>
+        </section>
+        <section class="application-card">
+            <h3>Application Form</h3>
+            <form autocomplete="on" class="form-box"><br>
+
+                <h4>Personal Information</h4>
+
+                <label for="first-name" class="form-label">First name:</label><br><br>
+                <input type="text" id="first-name" name="first-name" size="40" maxlength="50" required><br><br><br>
+
+                <label for="last-name" class="form-label">Last name:</label><br><br>
+                <input type="text" id="last-name" name="last-name" size="40" maxlength="50" required><br><br><br>
+
+                <label for="birthdate" class="form-label">Date of birth:</label><br><br>
+                <input type="date" id="birthdate" name="birthdate" required><br><br><br>
+
+                <label class="form-label">Gender:</label><br><br>
+                <input type="radio" id="gender-male" name="gender" value="Male" class="form-radio">
+                <label for="gender-male" class="radio-label">Male</label><br><br>
+                <input type="radio" id="gender-female" name="gender" value="Female" class="form-radio">
+                <label for="gender-female" class="radio-label">Female</label><br><br><br>
+
+                <label for="current-address" class="form-label">Current address:</label><br><br>
+                <input type="text" id="current-address" name="current-address" size="50" maxlength="100"
+                    required><br><br><br>
+
+                <label for="current-address-2" class="form-label">Current address 2:</label><br><br>
+                <input type="text" id="current-address-2" name="current-address-2" size="50"
+                    maxlength="100"><br><br><br>
+
+                <label for="phone" class="form-label">Phone number:</label><br><br>
+                <input type="tel" id="phone" name="phone" placeholder="ex. 123-456-7890"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+                <small class="input-example">format: ###-###-####</small><br><br><br>
+
+                <label for="email" class="form-label">E-mail address:</label><br><br>
+                <input type="email" id="email" name="email" size="35" maxlength="254"
+                    placeholder="ex. your_email_address@gmail.com"><br><br><br>
+
+                <label class="form-label">Family Members Accompanying You?</label><br><br>
+                <input type="radio" id="family-members-yes" name="family-members" value="Yes" class="form-radio">
+                <label for="family-members-yes" class="radio-label">Yes</label><br><br>
+                <input type="radio" id="family-members-no" name="family-members" value="No" class="form-radio">
+                <label for="family-members-no" class="radio-label">No</label><br><br>
+
+                <h4>Professional Background</h4>
+
+                <label for="previous-occupation" class="form-label">Previous Occupation</label><br><br>
+                <textarea id="previous-occupation" name="previous-occupation" rows="10" cols="60" maxlength="500"
+                    placeholder="Tell us about your experience from previous employment..."
+                    required></textarea><br><br><br>
+
+                <label for="years-of-experience" class="form-label">Years of Relevant Experience</label><br><br>
+                <input type="number" id="years-of-experience" name="years-of-experience" min="0" max="99"
+                    required><br><br><br>
+
+                <label class="form-label">Have you previously worked in a remote
+                    location?</label><br><br>
+                <input type="radio" id="remote-location-yes" name="remote-location" value="Yes" class="form-radio">
+                <label for="remote-location-yes" class="radio-label">Yes</label><br><br>
+                <input type="radio" id="remote-location-no" name="remote-location" value="No" class="form-radio">
+                <label for="remote-location-no" class="radio-label">No</label><br><br><br>
+
+                <label class="form-label">Have you previously worked as a caretaker, maintenance
+                    worker,
+                    or security employee?</label><br><br>
+                <input type="radio" id="similar-job-yes" name="similar-job" value="Yes" class="form-radio">
+                <label for="similar-job-yes" class="radio-label">Yes</label><br><br>
+                <input type="radio" id="similar-job-no" name="similar-job" value="No" class="form-radio">
+                <label for="similar-job-no" class="radio-label">No</label><br><br><br>
+
+                <h4>Personal Assessment</h4>
+
+                <label for="why-interested" class="form-label">Why are you interested in the Seasonal Caretaker
+                    position?</label><br><br>
+                <textarea id="why-interested" name="why-interested" rows="10" cols="60" maxlength="500"
+                    placeholder="Tell us why you are interested in this position..." required></textarea><br><br><br>
+
+                <label for="hobbies" class="form-label">How do you usually spend long periods of time
+                    alone?</label><br><br>
+                <textarea id="hobbies" name="hobbies" rows="10" cols="60" maxlength="500"
+                    placeholder="Describe your hobbies, interests you would pursue during the winter season... (maybe writing by any chance?)"
+                    required></textarea><br><br><br>
+
+                <label class="form-label">Are you comfortable living in an isolated environment
+                    for several months?</label><br><br>
+                <input type="radio" id="isolation-question-yes" name="isolation-question" value="Yes" class="form-radio">
+                <label for="isolation-question-yes" class="radio-label">Yes</label><br><br>
+                <input type="radio" id="isolation-question-no" name="isolation-question" value="No" class="form-radio">
+                <label for="isolation-question-no" class="radio-label">No</label><br><br>
+                <small class="input-example">If you checked "No", that job is not for you...</small><br><br><br>
+
+                <h4>Additional informations</h4>
+
+                <label for="startdate" class="form-label">Earliest Available Start Date:</label><br><br>
+                <input type="date" id="startdate" name="startdate" min="1979-10-21" max="1979-10-30"
+                    required><br><br><br>
+
+                <label for="emergency-contact-name" class="form-label">Emergency Contact</label><br><br>
+                <input type="text" id="emergency-contact-name" name="emergency-contact-name" size="30"
+                    placeholder="full name of person to contact"><br><br>
+                <input type="tel" id="emergency-contact-phone" name="emergency-contact-phone"
+                    placeholder="ex. 123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+                <small class="input-example">format: ###-###-####</small><br><br><br>
+
+                <label for="additional-information" class="form-label">Additional Information</label><br><br>
+                <textarea id="additional-information" name="additional-information" rows="10" cols="60"
+                    maxlength="500"></textarea><br><br><br>
+                <h4>Declaration</h4>
+                <p class="medium-text">By submitting above informations I hereby confirm that all information provided
+                    in this application is accurate
+                    and complete. I understand that the position may require extended periods of isolation and
+                    independent responsibility.</p><br><br><br>
+                <input type="reset" class="form-reset-button"><br><br><br>
+                <input type="submit" class="form-submit-button">
+            </form>
+        </section>
+    </main>
+    <footer>
+        This website is a non-commercial educational project created for learning HTML, CSS and basic web development.
+
+        The Shining, its characters, story elements, film stills and related trademarks are the property of their
+        respective copyright holders.
+
+        No commercial use is intended. All referenced materials are presented for educational and demonstrational
+        purposes only.
+    </footer>
+
+</body>
+
+</html>

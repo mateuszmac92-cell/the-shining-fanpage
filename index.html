@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>THE SHINING - Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="axe.png">
+</head>
+
+<body class="home-page">
+
+    <nav class="toc">
+        <div class="hamburger">
+            <button class="hamburger-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="menu-links">
+            <a href="index.html">Home</a>
+            <a href="history.html">Story Introduction</a>
+            <a href="actors.html">Actors</a>
+            <a href="the_manuscript.html">The Manuscript</a>
+            <a href="form.html">Caretaker Application</a>
+        </div>
+    </nav>
+    <header>
+        <h1>
+            <a href="index.html">THE SHINING</a>
+        </h1>
+    </header>
+    <main>
+        <div>
+            <p class="big-text">Famous quote (and cliché too) from the movie Shining</p>
+            <blockquote class="big-quote">
+                Jack Torrance: Here's Johnny!
+            </blockquote>
+            <p class="big-text">Story line from IMDb's website:</p>
+            <blockquote class="medium-quote">
+                <q>After landing a job as an off-season caretaker, Jack Torrance, an aspiring author and recovering
+                    alcoholic,
+                    drags his wife Wendy and gifted son Danny to snow-covered Colorado's secluded Overlook Hotel.
+                    However, writer's
+                    block prevents Jack from pursuing a new writing career. Everything has its time, however. First, the
+                    manager
+                    must give Jack a grand tour. Then, Mr Hallorann, the facility's aging chef, chats with Danny about
+                    rare psychic
+                    gifts. The mysterious employee also warns the boy about the cavernous hotel's abandoned rooms. Room
+                    237,
+                    especially, is off-limits. That's all very well, but Jack is gradually losing his mind. After all,
+                    strange
+                    occurrences and blood-chilling visions have trapped the family in a silent gargantuan prison
+                    hammered by endless
+                    snowstorms. And now, incessant voices inside Jack's head demand sacrifice. However, is Jack capable
+                    of murder?</q>
+                —Nick Riganas
+            </blockquote>
+        </div>
+        <div>
+            <div class="image-wrapper">
+                <div class="image-container">
+                    <img src="images/mountains.jpg" alt="Mountains helicopter shot" class="large-img">
+                    <p class="img_caption">Fig. 1.<br><br> The landscape is breathtaking, yet the silence feels
+                        strangely absolute.<br> With every mile, the
+                        outside world seems farther away.</p>
+                    <img src="images/overlook_hotel.jpg" alt="Overlook Hotel helicopter shot" class="large-img">
+                    <p class="img_caption">Fig. 2.<br><br> Nestled beneath towering peaks, the hotel appears calm and
+                        welcoming from afar.<br> But
+                        surrounded by such isolation, it feels as though it is keeping secrets of its own.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button type="button" onclick="
+                document.getElementById('demo').innerHTML = Date()
+                setTimeout(function() {
+                document.getElementById('demo').innerHTML = '';
+                }, 10000);
+            " class="date-button">Click me to display Date and Time.
+            </button>
+            <p id="demo"></p>
+        </div>
+    </main>
+    <footer>
+        This website is a non-commercial educational project created for learning HTML, CSS and basic web development.
+
+        The Shining, its characters, story elements, film stills and related trademarks are the property of their
+        respective copyright holders.
+
+        No commercial use is intended. All referenced materials are presented for educational and demonstrational
+        purposes only.
+    </footer>
+
+</body>
+
+</html>

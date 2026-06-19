@@ -1,0 +1,556 @@
+
+/* ======================================
+    PAGE BACKGROUNDS
+====================================== */
+
+.home-page {
+  background-image: url('images/carpet_1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  padding-left: 40px;
+}
+
+.story-introduction-page {
+  background-image: url('images/carpet_2.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  padding-left: 40px;
+}
+
+.actors-page {
+  background-image: url('images/mountain_road.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  padding-left: 40px;
+}
+
+.the-manuscript-page {
+  background-image: url('images/maze.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  padding-left: 40px;
+}
+
+.application-page {
+  background-image: url('images/photos.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  padding-left: 40px;
+}
+
+/* ======================================
+    GLOBAL TYPOGRAPHY
+====================================== */
+
+h1 {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 100px;
+  letter-spacing: 40px;
+  text-shadow: 2px 2px 4px black;
+}
+
+h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h2 {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 80px;
+  letter-spacing: 10px;
+  text-shadow: 2px 2px 4px black;
+}
+
+h3 {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 4px black;
+}
+
+h4 {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 45px;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px black;
+  border-bottom: 2px solid rgb(180, 0, 0);
+  padding-bottom: 10px;
+}
+
+.big-text {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+}
+
+.medium-text {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 17px;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+}
+
+.big-quote {
+  color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+  margin-bottom: 100px;
+}
+
+.medium-quote {
+  color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 28px;
+  text-align: justify;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 4px black;
+  background-color: rgb(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.quote-signature {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  text-shadow: 2px 2px 4px black;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.date-button {
+    display: block;
+    margin: 50px auto;
+    background-color: rgb(255, 187, 0);
+    color: rgb(0, 0, 0);
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 15px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.date-button:hover {
+    background-color: rgb(255, 187, 0);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 187, 0, 0.8);
+}
+
+#demo {
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    margin-top: 30px;
+}
+
+footer {
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(255, 187, 0);
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px 25px;
+}
+
+/* ======================================
+    IMAGES
+====================================== */
+
+.image-wrapper {
+  text-align: center;
+}
+
+.image-container {
+  display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.large-img {
+  width: 1100px;
+  height: 800px;
+  object-fit: cover;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.medium-img {
+  width: 400px;
+  height: 270px;
+  display: block;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.small-img {
+  width: 400px;
+  height: 230px;
+  object-fit: cover;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.img_caption {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  text-shadow: 2px 2px 4px black;
+  background-color: rgb(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* ======================================
+    SIDEBAR NAVIGATION
+====================================== */
+
+.toc {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgb(0, 0, 0, 0.7);
+  transform: translateX(-30%);
+  transition: transform 1.5s ease;
+  z-index: 1000;
+}
+
+.toc:hover {
+  transform: translateX(0);
+}
+
+.toc:hover .menu-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.toc:hover .hamburger {
+  visibility: hidden;
+}
+
+.toc a {
+  display: block;
+  color: white;
+  font-family: Garamond, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 20px 0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.toc a:hover {
+  color: rgb(243, 5, 5);
+}
+
+.hamburger {
+  margin-bottom: 50px;
+}
+
+.hamburger-button {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(180, 0, 0);
+  border: 2px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+}
+
+.hamburger-button span {
+  display: block;
+  width: 15px;
+  height: 2px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1px;
+}
+
+.menu-links {
+  display: none;
+  padding: 20px;
+}
+
+/* ======================================
+    STORY INTRODUCTION PAGE
+====================================== */
+
+.character-presentation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+  row-gap: 5px;
+  flex-wrap: wrap;
+}
+
+.character {
+  text-align: center;
+}
+
+/* ======================================
+    ACTORS PAGE
+====================================== */
+
+.actors-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.actor-card {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+}
+
+.actor-card a {
+  display: block;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 20px 20px 30px 20px;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-shadow: 2px 2px 4px black;
+}
+
+.actor-card a:hover {
+  color: rgb(243, 5, 5);
+}
+
+.actor-note {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  text-align: justify;
+  text-shadow: 2px 2px 4px black;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* ======================================
+    MANUSCRIPT PAGE
+====================================== */
+
+.manuscript-page {
+  width: 800px;
+  min-height: 1100px;
+  text-align: center;
+  margin: 50px auto;
+  background-color: rgb(235, 212, 144);
+  padding: 80px;
+  box-shadow: 0 0 20px black;
+}
+
+.manuscript-page pre {
+  font-family: "Courier Prime", monospace;
+  font-size: 15px;
+  line-height: 1.4;
+  white-space: pre;
+}
+
+.code-page {
+  text-align: left;
+}
+
+.code-page pre {
+  font-family: "Courier Prime", monospace;
+  font-size: 15px;
+  line-height: 1.4;
+  white-space: pre;
+}
+
+/* ======================================
+    APPLICATION PAGE
+====================================== */
+
+.application-card {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  width: 750px;
+  margin: 40px auto;
+}
+
+.application-note {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  text-align: justify;
+  text-shadow: 2px 2px 4px black;
+  margin-bottom: 20px;
+}
+
+.form-box {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-label {
+  display: inline-block;
+  width: 600px;
+  text-align: left;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  text-shadow: 2px 2px 4px black;
+  vertical-align: middle;
+}
+
+.form-box input[type="text"],
+.form-box input[type="email"],
+.form-box input[type="tel"],
+.form-box input[type="date"],
+.form-box input[type="number"] {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 550px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  font-size: 15px;
+}
+
+.form-box textarea {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  font-size: 15px;
+  resize: vertical;
+}
+
+.form-box input[type="radio"] {
+  margin-right: 10px;
+}
+
+.form-radio {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.radio-label {
+  display: inline-block;
+  width: 120px;
+  text-align: left;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  text-shadow: 2px 2px 4px black;
+  vertical-align: middle;
+}
+
+.input-example {
+  display: block;
+  text-align: center;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-shadow: 2px 2px 4px black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.form-reset-button {
+  background-color: rgb(180, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-reset-button:hover {
+  background-color: rgb(243, 5, 5);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(243, 5, 5, 0.8);
+}
+
+.form-submit-button {
+  background-color: rgb(255, 196, 0);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-submit-button:hover {
+  background-color: rgb(255, 196, 0);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 196, 0, 0.8);
+}
